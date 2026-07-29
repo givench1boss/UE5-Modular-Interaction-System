@@ -2,6 +2,8 @@
 
 A performant, server-validated C++ interaction system for Unreal Engine 5. Designed for decoupled logic, easy Blueprint extension, and safe actor lifecycle management.
 
+https://github.com/user-attachments/assets/b373fb49-28cb-47c4-899f-b3e6443d426f
+
 ## Key Features
 
 *   **Optimized Tracing:** Uses `FTimerHandle` instead of `Event Tick` for local controller line tracing.
