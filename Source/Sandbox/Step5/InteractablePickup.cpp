@@ -6,6 +6,8 @@ AInteractablePickup::AInteractablePickup()
 {
 	PrimaryActorTick.bCanEverTick = false;
 
+	bReplicates = true;
+
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PickupMesh"));
 	RootComponent = MeshComponent;
 

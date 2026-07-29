@@ -27,10 +27,16 @@ public:
 	virtual void Interact_Implementation(AActor* InteractorActor) override;
 	virtual FText GetInteractText_Implementation() const override;
 
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UFUNCTION()
+	void OnRep_IsOpen();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 private:
+	UPROPERTY(ReplicatedUsing = OnRep_IsOpen)
 	bool bIsOpen = false;
 };
