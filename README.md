@@ -25,6 +25,7 @@ The project includes a ready-to-play map demonstrating three core interaction pa
 The interaction system is fully decoupled and exposed to Blueprints via `IInteractableInterface`. Designers and non-programmers can easily create new interactable objects and custom logic without writing a single line of C++ code.
 
 For example, here is the complete implementation of `BP_LightSwitch` using **Event Interact**:
+
 <img width="815" height="370" alt="image" src="https://github.com/user-attachments/assets/dbff6c90-7296-4d89-b4d2-f8acdcef3d19" />
 <img width="815" height="370" alt="image" src="https://github.com/user-attachments/assets/eec438d9-c4f7-4cd9-8e2b-19bdff491446" />
 
